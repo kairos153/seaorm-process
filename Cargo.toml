@@ -1,0 +1,10 @@
+[package]
+name = "seaorm-axum"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [".", "api", "service", "entity", "migration"]
+
+[dependencies]
+axum-example-api = { path = "api" }
